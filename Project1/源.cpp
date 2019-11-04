@@ -69,7 +69,7 @@ int main(int argc, char* argv[])
 				n2 = rand() % 20;
 				n3 = rand() % 20;
 				n4 = rand() % 20;
-				if (a[1] ==  1)
+				if (a[1] == 1)
 				{
 					ch = rand() % 4;
 				}
