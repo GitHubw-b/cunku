@@ -7,7 +7,7 @@ int main(int argc, char* argv[])
 {
 	int a[6], ch;      //定义一个数组，用来存放可控参数.
 	int temp;
-
+	srand((unsigned)time(NULL)); //使随机产生的式子每次不重复
 	int k1, k2;  //k1,k2为两个随机数，产生n个式子
 
 	cout << "请输入出题数目：" << endl;
